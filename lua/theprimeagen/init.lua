@@ -52,7 +52,7 @@ autocmd('BufEnter', {
         if vim.bo.filetype == "zig" then
             pcall(vim.cmd.colorscheme, "tokyonight-night")
         else
-            pcall(vim.cmd.colorscheme, "rose-pine-moon")
+            pcall(vim.cmd.colorscheme, "dracula")
         end
     end
 })
@@ -78,3 +78,5 @@ autocmd('LspAttach', {
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+

@@ -7,7 +7,9 @@ function ColorMyPencils(color)
 end
 
 return {
-
+    {
+        "Mofiqul/dracula.nvim",
+    },
     {
         "erikbackman/brightburn.vim",
     },
